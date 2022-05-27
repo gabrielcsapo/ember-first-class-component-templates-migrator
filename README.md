@@ -24,6 +24,7 @@ node ./bin/cli.js <TRANSFORM NAME> path/of/files/ or/some**/*glob.js
 ## Transforms
 
 <!--TRANSFORMS_START-->
+* [stage-1-batman-begone](transforms/stage-1-batman-begone/README.md)
 <!--TRANSFORMS_END-->
 
 ## Contributing

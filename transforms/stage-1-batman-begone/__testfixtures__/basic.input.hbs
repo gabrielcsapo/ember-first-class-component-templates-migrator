@@ -1,0 +1,14 @@
+<SomeAddon$SomeComponent attribute=value />
+
+{{some-addon$some-curly "foo" (bar "baz")}}
+
+{{#if (some-addon$some-helper args)}}
+  content1
+{{/if}}
+
+<div {{some-addon$some-modifier args}}>content2</div>
+
+<Foo />
+{{#if (baz whatever)}}content3{{/if}}
+{{bar}}
+<div {{wat}}></div>
