@@ -1,0 +1,34 @@
+{
+  "voyager-web-extended/addon/components/foo.hbs": {
+    "known": {
+      "some-addon": {
+        "angleComponents": [
+          "some-component"
+        ],
+        "ambiguousCurlies": [
+          "some-curly"
+        ],
+        "modifiers": [
+          "some-modifier"
+        ],
+        "helpers": [
+          "some-helper"
+        ]
+      }
+    },
+    "unknown": {
+      "angleComponents": [
+        "Foo"
+      ],
+      "helpers": [
+        "baz"
+      ],
+      "ambiguousCurlies": [
+        "bar"
+      ],
+      "modifiers": [
+        "wat"
+      ]
+    }
+  }
+}
