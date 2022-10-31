@@ -17,12 +17,12 @@
   },
   "devDependencies": {
     "coveralls": "^3.1.0",
-    "eslint": "^8.16.0",
+    "eslint": "^8.26.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-node": "^11.1.0",
-    "eslint-plugin-prettier": "^4.0.0",
-    "jest": "^26.6.3",
-    "prettier": "^2.6.2"
+    "eslint-plugin-prettier": "^4.2.1",
+    "jest": "^29.2.2",
+    "prettier": "^2.7.1"
   },
   "engines": {
     "node": "12.* || 14.* || >= 16"
