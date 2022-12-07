@@ -1,0 +1,14 @@
+{{#let (component "some-addon@some-component") as |SomeComponent|}}<SomeComponent attribute=value />{{/let}}
+
+{{if (isHelper "some-addon@some-curly" (helper "some-addon@some-curly" "foo" (bar "baz"))) (component "some-addon@some-curly" "foo" (bar "baz"))}}
+
+{{#if (helper "some-addon@some-helper" args)}}
+  content1
+{{/if}}
+
+<div {{modifier "some-addon@some-modifier" args}}>content2</div>
+
+<Foo />
+{{#if (baz whatever)}}content3{{/if}}
+{{bar}}
+<div {{wat}}></div>
