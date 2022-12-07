@@ -1,0 +1,22 @@
+{
+  "basic.hbs": {
+    "known": {
+      "some-component": {}
+    },
+    "unknown": {
+      "ambiguousCurlies": [
+        "bar"
+      ],
+      "angleComponents": [
+        "Foo"
+      ],
+      "helpers": [
+        "bar",
+        "baz"
+      ],
+      "modifiers": [
+        "wat"
+      ]
+    }
+  }
+}
